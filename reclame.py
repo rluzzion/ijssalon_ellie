@@ -7,7 +7,7 @@ def aanbieding_1(smaak,prijs,korting):
 def inkomsten_totaal(inkomsten):
     return sum(inkomsten)
 
-def inkomsten_totaal(inkomsten,btw):
+def inkomsten_totaal(inkomsten,btw): #ik heb voor de volledigheid vraag 7 apart uitgevoerd
     tekst = f"Het totaal van alle inkomsten van deze week is {sum(inkomsten)} euro, waarover {sum(inkomsten) * btw} euro btw betaald dient te worden."
     return tekst
 
@@ -15,9 +15,9 @@ def laag_en_hoog(mijn_lijst):
     return [max(mijn_lijst), min(mijn_lijst)]
 
 def gemiddelde(mijn_lijst):
-    return sum(mijn_lijst) / len(mijn_lijst)
+    return sum(mijn_lijst) / len(mijn_lijst) # gedeeld door 7 kan in dit voorbeeld ook, maar als de list korter of langer wordt, klopt het gemiddelde niet meer
 
-def gemiddelde(mijn_lijst):
+def gemiddelde(mijn_lijst): #ik heb voor de volledigheid vraag 10 apart uitgevoerd
     tekst = f"De gemiddelde inkomsten deze week zijn {sum(mijn_lijst) / len(mijn_lijst)} euro"
     return tekst
 
