@@ -1,5 +1,3 @@
-from les_tijdelijk import som
-
 inkomsten = {
     "Aardbeien-ijs-totaal" : 1000,
     "Vanille-ijs-totaal" : 2000,
@@ -7,6 +5,6 @@ inkomsten = {
     "Waterijsjes-totaal" : 750
 }
 
-totaal_inkomsten = som(inkomsten)
+totaal_inkomsten = sum(inkomsten.values())
 
 print(totaal_inkomsten)
