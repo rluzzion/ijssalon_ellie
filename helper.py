@@ -17,3 +17,7 @@ b = int(input("Welk bedrag zit er in de fooienpot? "))
 p = int(input("Over hoeveel mensen moet de pot verdeeld worden? "))
 
 print(fooi_pp(b,p))
+
+def som(a):
+    uitvoer = sum(a.values())
+    return uitvoer

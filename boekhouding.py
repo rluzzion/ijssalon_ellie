@@ -1,3 +1,7 @@
+from presentatie import *
+
+from helper import *
+
 inkomsten = {
     "Aardbeien-ijs-totaal" : 1000,
     "Vanille-ijs-totaal" : 2000,
@@ -5,6 +9,6 @@ inkomsten = {
     "Waterijsjes-totaal" : 750
 }
 
-totaal_inkomsten = sum(inkomsten.values())
-
+totaal_inkomsten = som(inkomsten)
 print(totaal_inkomsten)
+presenteer(inkomsten,totaal_inkomsten)
